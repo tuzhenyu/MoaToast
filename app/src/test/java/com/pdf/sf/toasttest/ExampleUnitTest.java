@@ -1,4 +1,4 @@
-package com.pdf.sf.toasttest;
+package com.pdf.sf.toast;
 
 import org.junit.Test;
 

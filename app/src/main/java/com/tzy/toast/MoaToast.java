@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pdf.sf.toasttest;
+package com.tzy.toast;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -34,6 +34,8 @@ import android.view.WindowManager;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.TextView;
+
+import com.pdf.sf.toast.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -419,7 +421,7 @@ public class MoaToast {
                 }
                 if (localLOGV) Log.v(TAG, "dialog= " + dialog + " show in " + this);
 
-                dialog = new Dialog(context,R.style.moaToastDialog);
+                dialog = new Dialog(context,  R.style.moaToastDialog);
                 dialog.setContentView(mView);
                 dialog.getWindow().setAttributes(mParams);
                 dialog.show();
