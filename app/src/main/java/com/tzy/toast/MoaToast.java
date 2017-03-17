@@ -35,8 +35,6 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.TextView;
 
-import com.pdf.sf.toast.R;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 /**

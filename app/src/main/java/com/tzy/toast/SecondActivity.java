@@ -3,8 +3,6 @@ package com.tzy.toast;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.pdf.sf.toast.R;
-
 /**
  * Created by sf on 2016/12/30.
  */

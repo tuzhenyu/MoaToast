@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.pdf.sf.toast.R;
-
 public class MainActivity extends Activity {
     Button bn;
     Button bn1;
